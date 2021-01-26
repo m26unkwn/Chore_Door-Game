@@ -20,7 +20,8 @@ body{
     
     
 }
-.instruction > h3{
+.instruction  h3{
+    font-size: 26px;
     margin: 0 5px;
     display: inline;
     color:#010165;
@@ -36,13 +37,14 @@ body{
 }
 
 .instructions-number {
-
+    text-decoration: underline;
     padding-right: 25px;
     font-size: 36px;
     color:#010165;
 
 }
 .instructions-text {
+    
     padding: 10px;
     font-size: 18px;
     color: black;
