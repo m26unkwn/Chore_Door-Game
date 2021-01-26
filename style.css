@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #81f7b6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-color: #ffc65c;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.instruction{
+    text-align: center;
+    margin: 42px 0px 21px 0px;
+    
+    
+}
+.instruction > h3{
+    margin: 0 5px;
+    display: inline;
+    color:#010165;
+}
+
+.row-table{
+    
+    color: black;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.instructions-number {
+
+    padding-right: 25px;
+    font-size: 36px;
+    color:#010165;
+
+}
+.instructions-text {
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+}
+.door-row{
+    margin:40px;
+  text-align:center;
+}
